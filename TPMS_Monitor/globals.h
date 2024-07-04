@@ -160,10 +160,14 @@
   #define PIN_SDCARD_CS 22  // Card_CS
 
   /**** LEDS ****/
-  const int16_t DEBUGPIN = 16;  // PIN_LED_DBG1 = 16;
-  const int16_t PIN_LED_DBG2 = 17;
-  const int16_t LED_RX = 18;    // PIN_LED_RX = 18;
-  #define PIN_LED_HEART 25
+  // const int16_t DEBUGPIN = 16;  // PIN_LED_DBG1 = 16;
+  // const int16_t PIN_LED_DBG2 = 17;
+  // const int16_t LED_RX = 18;    // PIN_LED_RX = 18;
+  // #define PIN_LED_HEART 25
+  const int16_t LED_RX = 17;    // PIN_LED_RX = 18;
+  #define PIN_LED_HEART 16
+  const int16_t DEBUGPIN = 18;  // PIN_LED_DBG1 = 16;
+  const int16_t PIN_LED_DBG2 = 25;
 
   /**** BUZZER ****/
   const int16_t AUDIBLE_ALARM_PIN = 1;  // PIN_BUZZER = 1;
@@ -180,7 +184,8 @@
 #define AUDIBLE_ALARM_ON_TIME_MS 500
 #define AUDIBLE_ALARM_OFF_TIME_MS 1000
 #define AUDIBLE_ALARM_ONOFF_COUNT 5
-#define AUDIBLE_ALARM_REMINDER_TIME_MS 1800000L //30 x 60 x 1000 (repeat alarm after 30 minutes) - Set to zero for no reminders. Note: value must be > (AUDIBLE_ALARM_ON_TIME_MS + AUDIBLE_ALARM_OFF_TIME_MS) * AUDIBLE_ALARM_ONOFF_COUNT
+// #define AUDIBLE_ALARM_REMINDER_TIME_MS 1800000L //30 x 60 x 1000 (repeat alarm after 30 minutes) - Set to zero for no reminders. Note: value must be > (AUDIBLE_ALARM_ON_TIME_MS + AUDIBLE_ALARM_OFF_TIME_MS) * AUDIBLE_ALARM_ONOFF_COUNT
+#define AUDIBLE_ALARM_REMINDER_TIME_MS 0L //30 x 60 x 1000 (repeat alarm after 30 minutes) - Set to zero for no reminders. Note: value must be > (AUDIBLE_ALARM_ON_TIME_MS + AUDIBLE_ALARM_OFF_TIME_MS) * AUDIBLE_ALARM_ONOFF_COUNT
 
 
 volatile static uint32_t LastEdgeTime_us = 0;

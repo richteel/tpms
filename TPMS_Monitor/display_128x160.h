@@ -206,8 +206,11 @@ void DrawSignal(uint8_t Level, int16_t x, int16_t y)
 
 void DisplayInit()
 {
-    
-  display.initR(INITR_BLACKTAB);   // initialize a ST7735S chip, black tab
+  // Color is Good but offset
+  //display.initR(INITR_GREENTAB);   // initialize a ST7735S chip, black tab
+  display.initR(INITR_REDTAB);   // initialize a ST7735S chip, black tab
+  // Red & Blue are switched but no offset
+  //display.initR(INITR_BLACKTAB);   // initialize a ST7735S chip, black tab
   //display.initR(0x06);  //fix for 2 row + 1 col offset issue (shows as random pixels in those areas)
   display.setRotation(3);
   display.fillScreen(ST7735_BLACK);

@@ -276,7 +276,7 @@ void setup() {
   pinMode(LED_RX, OUTPUT);
   digitalWrite(LED_RX, LOW);
   pinMode(PIN_LED_HEART, OUTPUT);
-  digitalWrite(PIN_LED_HEART, HIGH);
+  digitalWrite(PIN_LED_HEART, LOW);
 
   // Buzzer Setup
   pinMode(AUDIBLE_ALARM_PIN, OUTPUT);
@@ -582,6 +582,7 @@ void setup() {
 
 void loop() 
 {
+  heartbeatLed();
   uint8_t RegRead;
 
   #ifdef USE_TEST_TIMINGS

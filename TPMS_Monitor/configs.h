@@ -105,7 +105,8 @@
   #define FRONT_RIGHT 0x05555262L 
   #define REAR_LEFT   0x03A3515AL
   #define REAR_RIGHT  0x0E90614AL
-  #define SPARE       0x03EF5BF0L
+  // #define SPARE       0x03EF5BF0L
+  #define SPARE       0x0L
   
   // #define FRONT_LEFT  0x0L 
   // #define FRONT_RIGHT 0x0L 
