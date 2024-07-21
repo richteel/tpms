@@ -7,7 +7,7 @@ After searching a bit, I came across an article on <a href="https://www.hackster
 Newer cars have the details of the TPMS built in so it is not necessary to guess, but my older Prius does not. With this project, I will be able to monitor the health of my tires and when on a road trip and the dash light comes on, I don't need to panic and pull over to see if it is a major issue, that needs to be resolved right away, or if it is something that I can wait until I get to my destination.
 
 
-##Items used in my build##
+## Items used in my build ##
 
 - <a href="https://www.adafruit.com/product/4883" target="_blank">Raspberry Pi Pico (Pimoroni Pico Lipo) NOTE: Used Earle Philhower's core</a>
 - <a href="https://www.adafruit.com/product/358" target="_blank">Adafruit 1.8" Color TFT LCD display with MicroSD Card Breakout - ST7735R</a>
@@ -17,12 +17,12 @@ Newer cars have the details of the TPMS built in so it is not necessary to guess
 - 2 150 Ohm Resistors
 - <a href="https://www.pcbway.com/project/shareproject/Raspberry_Pi_Pico_Tire_Tyre_Pressure_Monitoring_System_TPMS_48b6424e.html" target="_blank">PCB from PCBWay</a>
 
-##Code Notes##
+## Code Notes ##
 
-###TPMS_Monitor###
+### TPMS_Monitor ###
 The code in the TPMS_Monitor folder is the original code modified to work with the Raspberry Pi Pico code using Earle Philhower's core. This code is hard coded for US 315 MHz and Toyota PMV-107J sensors.
 
-###TPMS_Monitor2###
+### TPMS_Monitor2 ###
 Currently a work in progress to allow configuration to any supported sensor configuration. This code is not ready for use. Code changes will be checked in occasionally as code is updated. An Excel workbook, TPMS_Monitor2.xlsx, has been added with some analysis to help with the development of the modified version.
 
 ---
