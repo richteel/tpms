@@ -17,6 +17,15 @@ Newer cars have the details of the TPMS built in so it is not necessary to guess
 - 2 150 Ohm Resistors
 - <a href="https://www.pcbway.com/project/shareproject/Raspberry_Pi_Pico_Tire_Tyre_Pressure_Monitoring_System_TPMS_48b6424e.html" target="_blank">PCB from PCBWay</a>
 
+##Code Notes##
+
+###TPMS_Monitor###
+The code in the TPMS_Monitor folder is the original code modified to work with the Raspberry Pi Pico code using Earle Philhower's core. This code is hard coded for US 315 MHz and Toyota PMV-107J sensors.
+
+###TPMS_Monitor2###
+Currently a work in progress to allow configuration to any supported sensor configuration. This code is not ready for use. Code changes will be checked in occasionally as code is updated. An Excel workbook, TPMS_Monitor2.xlsx, has been added with some analysis to help with the development of the modified version.
+
+---
 
 I hope you enjoy this project and have success building it.
 
