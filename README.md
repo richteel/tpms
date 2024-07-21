@@ -25,7 +25,7 @@ The code in the TPMS_Monitor folder is the original code modified to work with t
 ### TPMS_Monitor2 ###
 Currently a work in progress to allow configuration to any supported sensor configuration. This code is not ready for use. Code changes will be checked in occasionally as code is updated. An Excel workbook, TPMS_Monitor2.xlsx, has been added with some analysis to help with the development of the modified version.
 
----
+<hr />
 
 I hope you enjoy this project and have success building it.
 
